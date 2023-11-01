@@ -51,14 +51,16 @@ If you encounter permission-related issues when attempting to run the `run_mouse
 
 ---
 
-📝 License
+### 📝 License
 
 This software is provided under the MIT License.
 
-✒️ Author
+---
+### ✒️ Author
 
     Orkun Acar
 
+---
 If you have any questions or encounter issues, feel free to open an issue.
 
 Enjoy monitoring your mouse's relative movements on Linux!
