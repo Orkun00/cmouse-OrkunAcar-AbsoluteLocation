@@ -33,19 +33,23 @@ To continuously monitor the mouse's relative position, you can use the provided 
     ./run_mouse_position.sh
 
 To stop the script, press Ctrl+C.
-### Making the Script Executable
+Making the Script Executable
 
 If you encounter permission-related issues when attempting to run the `run_mouse_position.sh` script, it may be necessary to make the script executable. You can do this using the `chmod` command as follows:
 
     chmod +x run_mouse_position.sh
 
-⚠️ Safety Concerns
+---
 
-    - **Root Access**: This software requires root permissions to access the mouse device file. If you encounter permission-related issues when running the program, you may need to provide the necessary permissions or run the program with superuser privileges. Always exercise caution when running any program as root. Malicious or erroneous operations can lead to system-wide damages.
+### ⚠️ Safety Concerns
 
-    - **Graceful Termination**: Ensure to handle the program termination gracefully, such as by using Ctrl+C. This ensures that system resources are freed, and there are no lingering processes.
+- **Root Access**: This software requires root permissions to access the mouse device file. If you encounter permission-related issues when running the program, you may need to provide the necessary permissions or run the program with superuser privileges. Always exercise caution when running any program as root. Malicious or erroneous operations can lead to system-wide damages.
 
-    - **Unpredictable Results**: Reading directly from system device files can occasionally lead to unexpected results due to system configurations, concurrent operations, or other factors. It's advisable to use this tool in controlled environments, and always ensure you have backups of important data.
+- **Graceful Termination**: Ensure to handle the program termination gracefully, such as by using Ctrl+C. This ensures that system resources are freed, and there are no lingering processes.
+
+- **Unpredictable Results**: Reading directly from system device files can occasionally lead to unexpected results due to system configurations, concurrent operations, or other factors. It's advisable to use this tool in controlled environments, and always ensure you have backups of important data.
+
+---
 
 📝 License
 
