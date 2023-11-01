@@ -1,12 +1,9 @@
-# 🖱 Mouse Movement Tracker
-
-## 📑 Table of Contents
+  # 🖱 Mouse Movement Tracker
+  ## 📑 Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [User Manual](#user-manual)
 - [Safety Concerns](#safety-concerns)
-  
-# 🖱 Mouse Movement Tracker
 
 ## 📌 Introduction
 The Mouse Movement Tracker is a lightweight C program designed to monitor the relative motion of a mouse on Linux-based systems. It calculates the x and y offsets from a starting point and continuously displays these values in the terminal. This tool can be useful for various applications like testing mouse accuracy, user behavior studies, or just as an educational tool to understand mouse inputs in Linux.
