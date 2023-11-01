@@ -28,6 +28,15 @@ After compilation, run the program using:
 
     sudo ./bin/main
 
+
+---
+
+Making the Script Executable
+
+If you encounter permission-related issues when attempting to run the `run_mouse_position.sh` script, it may be necessary to make the script executable. You can do this using the `chmod` command as follows:
+
+    chmod +x run_mouse_position.sh
+
 ---
 
 Monitoring Mouse Position
@@ -38,13 +47,6 @@ To continuously monitor the mouse's relative position, you can use the provided 
 
 To stop the script, press Ctrl+C.
 
----
-
-Making the Script Executable
-
-If you encounter permission-related issues when attempting to run the `run_mouse_position.sh` script, it may be necessary to make the script executable. You can do this using the `chmod` command as follows:
-
-    chmod +x run_mouse_position.sh
 
 ---
 
